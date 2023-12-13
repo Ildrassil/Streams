@@ -1,5 +1,6 @@
-package org.example;
-
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -18,6 +19,7 @@ public class Main {
 
     }
 
+
     public static Integer calculateSum(List<Integer> numbers) {
         return numbers.stream()
                 .filter(number -> number % 2 == 0)
@@ -27,10 +29,14 @@ public class Main {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 13, 12, 15, 16, 17, 18, 19, 20);
         List<Integer> even = filterForOddNumbers(numbers);
         System.out.println(calculateSum(numbers));
         System.out.println(even);
+
+        StudentRepo studentRepo = new StudentRepo();
+        studentRepo.createStudentMap();
+
     }
 }
