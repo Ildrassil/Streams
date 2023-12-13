@@ -1,8 +1,0 @@
-
-o
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8°çÂÆ1
-b
-java:S1612"@Replace this lambda with method reference 'System.out::println'.(Ù÷ÚÇÿÿÿÿÿ8±çÂÆ1
-L	java:S106"+Replace this use of System.out by a logger.(Ù÷ÚÇÿÿÿÿÿ8±çÂÆ1
-L	java:S106!"+Replace this use of System.out by a logger.(›´ŞÛıÿÿÿÿ8²çÂÆ1
-L	java:S106""+Replace this use of System.out by a logger.(æÒğ‡ùÿÿÿÿ8²çÂÆ1
